@@ -1,0 +1,18 @@
+/*style reset*/
+* {margin: 0;padding: 0;}
+ul,ol {list-style: none;}
+a {text-decoration: none;}
+
+/*tab container style*/
+.tab_container {background: gray;margin: 0;padding: 0;overflow: hidden;zoom:1;}
+
+/*tab menu style*/
+.tab_menu {width:100%;color:#fff;display: block;overflow: hidden;zoom:1;}
+.tab_menu li {float:left;background:lightgreen;padding:10px 25px;}
+.active_item {border-bottom:3px solid red;color:red;}
+
+/*tab content style*/
+.tab_content {overflow:hidden;zoom:1;}
+.single_tab {width:100%;background:green;height:100px;overflow: hidden;zoom:1;}
+.tab_content>.single_tab {display:none;}
+.tab_content>.default_tab {display: block;}

@@ -10,18 +10,7 @@
     	<script type="text/javascript" src="js/jquery.tab.page.js"></script>
 
     	<script type="text/javascript">
-	    	/*$(function(){
-	    		var item = $('.tab_menu').find('li');
-
-	    		item.bind('click',function(){
-	    			var number = $(this).index();
-	    			$('.single_tab:eq('+number+')').show().siblings().hide();
-	    		});
-	    	});*/
 			$(function(){
-				$('.single_tab:first-child').animate({
-					'left':0,
-				},1000);
 				$('.tab_container').tabToggle();
 			});
     	</script>
@@ -33,12 +22,14 @@
 				<li>MenuTwo</li>
 				<li>MenuThree</li>
 				<li>MenuFour</li>
+				<li>MenuFive</li>
 			</ul>
 			<div class="tab_content">
 				<div class="single_tab default_tab" tab-type="tab">test1</div>
 				<div class="single_tab" tab-type="tab">test2</div>
 				<div class="single_tab" tab-type="tab">test3</div>
 				<div class="single_tab" tab-type="tab">test4</div>
+				<div class="single_tab" tab-type="tab">test5</div>
 			</div>
     	</div>
     </body>
